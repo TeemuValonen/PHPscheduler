@@ -5,4 +5,6 @@ The application stores user accounts and allows users to create events. Weekly e
 front page after logging in. Front end was done using HTML5 and CSS, using Bootstrap. Also some simple JavaScript was used
 for the sake of practice. This was a pair project and the original repository was made by my partner for the assignment.
 
+Original repo: https://github.com/DoTheBarrelRoll/php-project
+
 The database used to store user accoutns and scheduled events was hosted on Microsoft Azure, and it is no longer available.
