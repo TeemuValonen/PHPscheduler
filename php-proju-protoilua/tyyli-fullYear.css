@@ -1,0 +1,211 @@
+html, body {
+  height: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+body {
+  background-image: url('full-schedule-tausta.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  background-color: white;
+  height: 100%;
+  border-radius: 20px;
+  overflow: auto;
+}
+
+.jumbotron {
+  padding-top: 20px;
+  text-align: center;
+  margin-bottom: 0px;
+  background-color: rgba(178, 178, 178,0.7);
+}
+
+.lukkari {
+  margin: auto;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+a {
+  margin-top: 10px;
+}
+
+.btn-lukkari {
+  background-color: white;
+}
+
+.card-lukkari {
+  background-color: white;
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+
+}
+
+.card-link {
+  margin: auto;
+}
+
+.card-options {
+  margin-bottom: 30px;
+  padding: 5px;
+  max-width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  border: none;
+}
+
+.card-img {
+  max-width: 75px;
+  max-height: 75px;
+  float:left;
+  padding-right: 10px;
+}
+
+.nav-img {
+  max-width: 25px;
+  max-height: 25px;
+}
+
+.card-link, .card-img, .card-title {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.seasonCard {
+  margin: 5px;
+  text-align: center;
+}
+
+
+.aika {
+  border: 0px solid;
+}
+
+.tab-pane {
+  background-color: none;
+}
+
+.talviOtsikot {
+  border-bottom-width: 1px;
+  border-color: rgb(162, 216, 249);
+}
+
+
+.talviNappi, .talviNappi:hover  {
+  background: rgba(193, 231, 255, 0.8);
+  color: rgb(1, 91, 130);
+
+}
+
+.talviNappi:hover {
+  color: rgb(0, 57, 183);
+  border-color: rgb(0, 57, 183) !important;
+}
+
+#talviDiv a.active {
+  color: rgb(0, 57, 183);
+  background-color: rgba(193, 231, 255, 0.9);
+  border: 3px;
+  border-color: rgb(162, 216, 249);
+}
+
+.kevatOtsikot {
+  border-bottom-width: 1px;
+  border-color: rgb(215, 239, 143);
+}
+
+.kevatNappi, .kevatNappi:hover  {
+  background: rgba(252, 255, 193,0.8);
+  color: rgb(80, 99, 0);
+}
+
+.kevatNappi:hover {
+  color: rgb(143, 175, 0) ;
+  border-color: rgb(143, 175, 0) !important;
+}
+
+#kevatDiv a.active {
+  color: rgb(143, 175, 0);
+  background-color: rgba(252, 255, 193, 0.9);
+  border: 3px;
+  border-color: rgb(251, 255, 91);
+}
+
+.kesaOtsikot {
+  border-bottom-width: 1px;
+  border-color: rgb(214, 255, 193);
+}
+
+.kesaNappi, .kesaNappi:hover  {
+  background: rgba(214, 255, 193,0.8);
+  color: rgb(80, 99, 0);
+}
+
+.kesaNappi:hover {
+  color: rgb(0, 183, 39) ;
+  border-color: rgb(0, 183, 39) !important;
+}
+
+#kesaDiv a.active {
+  color: rgb(0, 183, 39);
+  background: rgba(214, 255, 193,0.9);
+  border: 3px;
+  border-color: rgb(251, 255, 91);
+}
+
+.syksyOtsikot {
+  border-bottom-width: 1px;
+  border-color: rgb(255, 197, 173);
+}
+
+.syksyNappi, .syksyNappi:hover  {
+  background: rgba(255, 197, 173,0.8);
+  color: rgb(186, 111, 0);
+}
+
+.syksyNappi:hover {
+  color: rgb(232, 65, 0) ;
+  border-color: rgb(232, 65, 0) !important;
+}
+
+#syksyDiv a.active {
+  color: rgb(232, 65, 0);
+  background: rgba(255, 197, 173,0.9);
+  border: 3px;
+  border-color: rgb(251, 255, 91);
+}
+
+#winterOpt:hover {
+  background: rgba(193, 231, 255, 0.5);
+}
+
+#springOpt:hover {
+  background: rgba(252, 255, 193,0.5);
+}
+
+#summerOpt:hover {
+  background: rgba(214, 255, 193,0.5);
+}
+
+#autumnOpt:hover {
+  background: rgba(255, 197, 173,0.5);
+}
+
+#goBack {
+  display:none;
+}

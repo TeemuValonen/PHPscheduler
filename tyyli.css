@@ -1,0 +1,108 @@
+html, body {
+  height: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+body {
+  background-image: url('full-schedule-tausta.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+h4 {
+  text-align: left;
+}
+.container {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
+  border-radius: 20px;
+  overflow: auto;
+
+}
+
+.jumbotron {
+  padding-top: 40px;
+  text-align: center;
+  margin-bottom: 5px;
+  background-color: rgba(178, 178, 178,0.0);
+  }
+
+.lukkari {
+  margin: auto;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+a {
+  margin-top: 10px;
+}
+
+
+.card-lukkari {
+  background-color: rgba(255,255,255,0.1);
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+
+}
+
+.card-link {
+  margin: auto;
+}
+
+.card-options {
+  margin-bottom: 30px;
+  padding: 5px;
+  max-width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  border: none;
+}
+
+.card-img {
+  max-width: 75px;
+  max-height: 75px;
+  float:left;
+  padding-right: 10px;
+}
+
+.nav-img {
+  max-width: 25px;
+  max-height: 25px;
+}
+
+.card-link, .card-img, .card-title {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a.active {
+  border: 2px solid rgb(49, 162, 255);
+  border-radius: 10px;
+  color: white;
+  background-color:rgba(50, 197, 255,0.5);
+}
+
+
+
+
+
+.aika {
+  border: 0px solid;
+}
+
+#login-nappi {
+
+}
